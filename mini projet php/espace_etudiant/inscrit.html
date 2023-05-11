@@ -1,0 +1,46 @@
+
+
+
+<!DOCTYPE html>
+<html>
+    <head> 
+      <title>Formulaire d'inscription  </title>
+      <link rel="stylesheet" href="style.css">
+    </head> 
+
+
+<body>
+<header>
+  Inscription
+  <a action="inscrit.php">
+</header>
+  <div>
+<form  name="fo" method="POST" >
+
+   <div class="label">NOM </div>
+   <input type="text" name="nom"    required>
+   <div>PRENOM </div>
+   <input type="text" name="prenom" required>  
+  <div>Date de naissance </div>
+  <input type="Date"  name="date" required>
+      
+  <div>SEXE </div>
+  <input type="radio" id="homme" name="sexe" value="h" required> Homme
+  <input type="radio" id="femme" name="sexe" value="f" required> Femme
+  <div>ETAT CIVILE </div>
+  <div>
+        <select id="etat"  class="w3-input w3-border" name="etat"   required >
+            <option></option>
+            <option value="Celibataire">Célibataire</option>
+            <option value="Union libre">Union libre</option>
+            <option value="Veuf">Veuf</option>
+            <option value="Marie">Marié</option>
+        </select>
+</div>
+<div>PSEUDO</div>
+<input type="text" name="login" required>
+<div>MOT DE PASSE</div>
+<input type="password" name="pwd"required>
+<input  type="submit" name="boutins" value="Inscription" >
+  </form>
+  

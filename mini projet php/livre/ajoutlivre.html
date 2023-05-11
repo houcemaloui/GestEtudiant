@@ -1,0 +1,55 @@
+
+
+
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<meta charset="utf8" >
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+
+  <link rel="stylesheet" type="text/css" href="../style.css">
+<style>
+.w3-btn {margin-bottom:10px;}
+.hero-text {
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);}
+</style>
+</head>
+
+<body>
+
+  
+	<div align="center" >
+
+	<h1><strong> ajouter un livre </strong> </h1 >
+<form action="ajoutlivre.php" method="POST" >
+  <table align="">
+  
+     
+   
+   <tr><td></td><td><strong >Title:</strong></td></tr>
+   <tr><td></td><td><input type="text" name="title" class="champ"  size="25"  required></td></tr>
+   <tr><td></td><td><strong >Auteur:</strong></td></tr>
+   <tr><td></td><td><input type="text" name="auteur" class="champ"  size="25"  required></td></tr>
+  
+
+   <tr><td></td><td><strong >Date edition :</strong></td></tr>
+   <tr><td></td><td><input type="date" name="date" class="champ"  size="25"  required></td></tr>
+     
+      
+        <tr><td></td><td><strong >Editeur:</strong></td></tr>
+        <tr><td></td><td><input type="text" name="editeur" class="champ"  size="25"  required></td></tr>
+        <tr><td></td><td><strong >Description:</strong></td></tr>
+        <tr><td></td><td><input type="text" name="description" class="champ"  size="25"  required></td></tr>
+        <tr><td></td><td><strong >Quantité:</strong></td></tr>
+        <tr><td></td><td><input type="text" name="quantite" class="champ"  size="25"  required></td></tr>
+      <tr><td></td><td><input  type="submit" name="boutins" value="ajouter"class="w3-button w3-white w3-border w3-border-red w3-round-large" ></td>
+  
+  </table>
+  </form>
+  
